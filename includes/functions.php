@@ -41,7 +41,7 @@ function pdoOpen()
 
   try
   {
-   $dbh = new PDO('mysql:host=weblab;dbname=jwl01', $username, $password);
+   $dbh = new PDO('mysql:host=weblab.us;dbname=jwl01', $username, $password);
   }
   catch (PDOException $e)
   {
