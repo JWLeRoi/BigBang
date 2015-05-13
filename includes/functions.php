@@ -32,7 +32,7 @@ function mysqliClose($conn)
 
 function pdoOpen()
 {
-  $servername = "weblab.us";
+  $servername = "http://weblab.us";
   $username = "jwl01";
   $password = "weblabjwl01";
 //  $username = "root";
